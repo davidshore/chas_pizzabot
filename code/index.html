@@ -2,10 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
     <title>Sprint 2: Pizzabot</title>
-    <script src="./pizzabot.js" charset="utf-8"></script>
   </head>
   <body>
-    Edit pizzabot.js to complete this assignment.
+    <div class="order-container hide">
+      <div class="message-container">
+        <h3 class="welcome-message"></h3>
+      </div>
+      <h1>Choose a Pizza</h1>
+      <div class="pizza-type"></div>
+      <h1>Choose amount</h1>
+      <div class="amount"></div>
+      <button class="order">Place Order</button>
+    </div>
+    <div class="order-message hide"></div>
+    <script src="./pizzabot.js" charset="utf-8"></script>
   </body>
 </html>

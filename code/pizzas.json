@@ -1,0 +1,17 @@
+[
+  {
+    "pizza": "Vegetarian",
+    "description": "Tomatoes, mozarella, black olives and basil leaves",
+    "imgSrc": "Vegetarian.jpg"
+  },
+  {
+    "pizza": "Hawaiian",
+    "description": "Ham/shirmp, mozarella, pinapple",
+    "imgSrc": "Hawaiian.jpg"
+  },
+  {
+    "pizza": "Pepperoni",
+    "description": "Tomatoes, mozarella, black olives and basil leaves",
+    "imgSrc": "Pepperoni.jpg"
+  }
+]
