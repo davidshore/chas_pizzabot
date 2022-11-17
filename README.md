@@ -40,7 +40,7 @@ Use the variables `vegetarian`, `hawaiian` and `pepperoni` to replace `X`, `Y` a
 
 Use `prompt()` to ask the user which pizza they want. The message in the prompt should read `Enter the name of the pizza you want to order today.`. Their response should be stored in a new variable called `orderName`.
 
-Next, ask the user (with another `prompt()`) how many they'd like: `How many of X do you want?`. X should be replaced with the `orderName` variable so that it if I ordered "Hawaiian Pizza" it would read "How many of Hawaiian Pizza do you want?". As before, the response from this prompt should be stored in a variable, this time called `orderQuantity`
+Next, ask the user (with another `prompt()`) how many they'd like: `How many of X do you want?`. X should be replaced with the `orderName` variable so that if I ordered "Hawaiian Pizza" it would read "How many of Hawaiian Pizza do you want?". As before, the response from this prompt should be stored in a variable, this time called `orderQuantity`
 
 #### 2.4 Finalizing the order
 
