@@ -12,6 +12,7 @@ alert(message);
 
 
 function calculateTime(quantity) {
+ 
   if (quantity < 3) {
     return 10;
   } else if (quantity < 6) {
@@ -59,6 +60,7 @@ function orderPizza() {
    }
 
 }
+
 
 orderPizza();
 
