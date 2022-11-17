@@ -6,6 +6,8 @@ const pizzaPrice = 80
 
 //Put your Javscript code here:
 
+alert(`Hey! Happy to serve your pizza. On our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`);
+
 function takeOrder() {
 
     const orderName = prompt('Enter the name of the pizza you want to order today.');
@@ -63,7 +65,7 @@ function sendAnswer(orderName, orderTotal, time) {
 
 function orderPizzas() {
 
-    alert(`Hey! Happy to serve your pizza. On our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`);
+
     const orderName = takeOrder();
     const isOrderCorrect = checkOrderName(orderName);
 
@@ -76,7 +78,7 @@ function orderPizzas() {
 
     } else {
 
-        alert('We don´t have that Pizza on the menu. Maybe you misspelled?');
+        alert('We don´t have that Pizza on the menu. Maybe you misspelled? Try again!');
         orderPizzas();
 
     }
