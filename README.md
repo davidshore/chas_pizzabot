@@ -1,5 +1,7 @@
 # Pizzabot2
 
+# Av Viktor Risinger
+
 Today's assignment is to practices some parts of JavaScript you've learnt so far to create a little text-based bot which you can use to order pizza on your computer.
 
 ## How to complete this assignment
@@ -12,9 +14,9 @@ The bot you'll build is a fake ordering system which will use [`alert()`](https:
 
 Before you start writing your "bot", there's a few things you should know about your pizzeria:
 
-- Your pizzeria only serves 3 different pizzas right now; _Vegetarian_, _Hawaiian_ and _Pepperoni_.
-- All the pizzas have the same price - 80 SEK.
-- Because of the popularity of your pizzeria, and long queues, you can only order multiple pizzas of the same sort.
+-   Your pizzeria only serves 3 different pizzas right now; _Vegetarian_, _Hawaiian_ and _Pepperoni_.
+-   All the pizzas have the same price - 80 SEK.
+-   Because of the popularity of your pizzeria, and long queues, you can only order multiple pizzas of the same sort.
 
 #### 1.1 Modeling the menu
 
@@ -60,9 +62,9 @@ When the user enters the `orderName` prompt, add an if-statement to check if the
 
 Before you print the final `Great, I'll get started on your X right away, it will cost Y kr` message to the user, calculate the cooking time based on these rules and add it to the message:
 
-- 1-2 pizzas: `The pizzas will take 10 minutes.`
-- 3-5 pizzas: `The pizzas will take 15 minutes.`
-- 6+ pizzas: `The pizzas will take 20 minutes.`
+-   1-2 pizzas: `The pizzas will take 10 minutes.`
+-   3-5 pizzas: `The pizzas will take 15 minutes.`
+-   6+ pizzas: `The pizzas will take 20 minutes.`
 
 For example, if I ordered 3 Hawaiian pizzas, the message should now read: "Great, I'll get started on your Hawaiian Pizza right away, it will cost 240 kr. The pizzas will take 15 minutes."
 
@@ -82,10 +84,10 @@ As always, when you're done, submit a pull request on GitHub (from your reposito
 
 ### :books: Reading List
 
-- [MDN - const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-- [MDN - let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-- [MDN - if/else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-- [MDN - arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+-   [MDN - const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+-   [MDN - let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+-   [MDN - if/else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+-   [MDN - arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ---
 
@@ -104,10 +106,10 @@ Learning how to think as a web developer is learning how to be an expert in prob
 
 After completing this assignment your should:
 
-- Be comfortable using variables
-- Know some string methods to modify strings
-- Understand control flow and the use of conditionals statements
-- Be able to write basic functions which take arguments and return values
+-   Be comfortable using variables
+-   Know some string methods to modify strings
+-   Understand control flow and the use of conditionals statements
+-   Be able to write basic functions which take arguments and return values
 
 ---
 
@@ -117,9 +119,9 @@ Done with the main task? Here's some ideas for things to continue with:
 
 1. Go to the Wikipedia Article about [Hawaiian Pizza](https://en.wikipedia.org/wiki/Hawaiian_pizza) and:
 
-- Copy the first three paragraphs. Store the text in a String
-- Make your program count the number of words in the string
-- Make your program count the number of times the word pineapple appears.
+-   Copy the first three paragraphs. Store the text in a String
+-   Make your program count the number of words in the string
+-   Make your program count the number of times the word pineapple appears.
 
 2. Instead of having your pizzabot live in the console make a form in HTML for the input from the user, pizza type and number of pizzas. Then make your program print it's response in HTML instead.
 
