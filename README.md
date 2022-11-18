@@ -1,4 +1,4 @@
-# Pizzabot
+# Pizzabot2
 
 Today's assignment is to practices some parts of JavaScript you've learnt so far to create a little text-based bot which you can use to order pizza on your computer.
 
