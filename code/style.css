@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.greet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(127, 25, 2);
+  color: rgb(0, 122, 216);
+  border-radius: 10px;
+}
+.greet h1{
+    text-align: center;
+   letter-spacing: 2px;
+   line-height: 90px;
+   margin-bottom: 10vh;
+   font-size: 50px;
+}
+.greet span{
+   color: rgb(223, 215, 215);
+   overflow-y: scroll;
+}
+.order-btn,
+.order-submit,
+.order-finish{
+    border-top: 30vh;
+    background-color: rgb(4, 4, 42);
+    color: rgb(253, 253, 253);
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px; 
+    font-weight: bold;
+    border: none;
+}
+.order-btn:hover,
+.order-submit:hover,
+.order-finish:hover{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+}
+
+.order-main{
+    background-color: rgb(25, 222, 176);
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px;
+   display: none;
+}
+.order-main h3{
+    padding: 20px;
+    color: aliceblue;
+    background-color: rgb(6, 15, 42);
+    margin: 20px;    
+}
+.order-main h4{
+    background-color: aliceblue;
+    color: rgb(97, 3, 3);
+    padding: 10px;
+}
+
+.order-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.order-image div{
+    flex-basis: 30%;
+    margin-bottom: 20px;
+   
+}
+.order-image img{
+    min-width: 100%;
+    width: auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.pizza h1{
+    border-top: 30vh;
+    background-color: rgb(44, 3, 82);
+    color: rgb(253, 253, 253);
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+summary{
+    background-color: rgb(44, 3, 82);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.pizza p{
+    background-color: aliceblue;
+    line-height: 20px;
+    padding: 20px;
+}
+.order-input{
+   text-align: center;
+   background-color: rgb(51, 146, 73);
+   color: aliceblue;
+   width: 60%;
+   margin: auto;
+   padding: 20px;
+   line-height: 30px;
+   font-size: 20px;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+}
+.output button{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.input-btn{
+    display: flex;
+    flex-direction: column;  
+}
+.input-btn button{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.comeback{
+    display: none;
+    background-color: rgb(147, 61, 4);
+    padding: 50px;
+    color: rgb(222, 213, 213);
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.comeback h2{
+    padding: 30px;
+    font-size: 50px;
+}
