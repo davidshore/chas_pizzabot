@@ -15,18 +15,19 @@
     align-items: center;
     margin: 30px;
     padding: 20px;
-    background-color: rgb(33, 192, 217);
-  color: rgb(0, 0, 0);
+    background-color: rgb(127, 25, 2);
+  color: rgb(0, 122, 216);
   border-radius: 10px;
 }
 .greet h1{
     text-align: center;
    letter-spacing: 2px;
-   line-height: 50px;
+   line-height: 90px;
    margin-bottom: 10vh;
+   font-size: 50px;
 }
 .greet span{
-   color: rgb(213, 17, 17);
+   color: rgb(223, 215, 215);
    overflow-y: scroll;
 }
 .order-btn,
@@ -59,10 +60,13 @@
 .order-main h3{
     padding: 20px;
     color: aliceblue;
-    text-align: center;
     background-color: rgb(6, 15, 42);
-    margin: 20px;
-    
+    margin: 20px;    
+}
+.order-main h4{
+    background-color: aliceblue;
+    color: rgb(97, 3, 3);
+    padding: 10px;
 }
 
 .order-image{
@@ -128,4 +132,17 @@ summary{
     width: 80%;
     margin: auto;
     margin-top: 10px;
+}
+.comeback{
+    display: none;
+    background-color: rgb(147, 61, 4);
+    padding: 50px;
+    color: rgb(222, 213, 213);
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.comeback h2{
+    padding: 30px;
+    font-size: 50px;
 }
