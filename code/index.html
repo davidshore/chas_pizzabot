@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="style.css" />
     <title>Sprint 2: Pizzabot</title>
-    <script src="./pizzabot.js" charset="utf-8"></script>
+    
+    
   </head>
   <body>
-    Edit pizzabot.js to complete this assignment.
-    <h1 class="header">Hej på alla</h1>
-  </body>
+    <div class="content">
+      <div class="greet">
+        <h1>
+          Hey! Happy to serve your pizza. On our menu we have
+        <span class="order-1">X</span>,
+        <span class="order-2">Y</span> and 
+        <span class="order-3">Z</span>
+        </h1>
+        <button class="order-btn" type="submit">
+          Order Now
+        </button>
+        
+      </div3>
+    </div>
+
+      <div class="order-main">
+        <h3>
+          Hey! Happy to serve your pizza. On our menu we have 
+          Vegetarian Pizza, Hawaiian Pizza and Pepperoni Pizza!
+        </h3>
+        <div class="order-image">
+          <div class="pizza">
+            <h1>Vegetarian Pizza</h1>
+            <img src="/code/image/vegetarian.jpeg" alt="">
+            
+            <details><summary>More about Vegetarian Pizza</summary>
+              <p>Meatless options have become very popular in most cuisines. Vegetarian pizza, a baked meatless Italian pie, is an option for vegetarians, those who may have a special needs diet, or simply for those looking for a healthier alternative to regular pizza. Vegetarian pizza features the same cheeses, seasonings, and sauces that regular pizza has, though the meat is replaced with vegetables and meat substitutes.</p>
+            </details>
+          </div>
+          <div class="pizza">
+            <h1>Hawaiian Pizza</h1>
+            <img src="/code/image/hawaiian-pizza.jpeg" alt="">
+            
+            <details><summary>More about Hawaiian Pizza</summary>
+              <p>Sam Panopoulos, a Greek-born Canadian, created the first Hawaiian pizza at the Satellite Restaurant in Chatham, Ontario, Canada in 1962. Inspired in part by his experience preparing Chinese dishes which commonly mix sweet and savory flavours, Panopoulos experimented with adding pineapple, ham, bacon, and other toppings. These additions were not initially very popular.[7][8][9][10][11]
+
+                The addition of pineapple to the traditional mix of tomato sauce and cheese, along with either ham or bacon, later became popular locally and eventually became a staple offering of pizzerias on a global scale.[12] The name of this creation is, in fact, actually not directly inspired by the U.S. state of Hawaii at all; Panopoulos chose the name Hawaiian after the brand of canned pineapple they were using at the time.[2]
+                
+                In Germany, Hawaiian pizza is thought to be a variation of the ham, pineapple and cheese-topped Toast Hawaii, originally introduced by Germany's first TV cook Clemens Wilmenrod in 1955.[13][14][15]
+                
+                A blend of cheeses, usually consisting of mozzarella cheese is a popular topping on Hawaiian pizza.[16]
+                
+                In the United States, some restaurants use barbecue sauce and pulled pork with pineapple and cheese as an alternative to the more traditional combination featuring tomato sauce and either ham or bacon</p>
+            </details>
+          </div>
+          <div class="pizza">
+            <h1>Pepperoni Pizza</h1>
+            <img src="/code/image/pepperoni.jpeg" alt="">
+            
+            <details><summary>More about Pepperoni Pizza</summary>
+              <p>Pepperoni pizza is an American pizza variety which includes one of the country's most beloved toppings. Pepperoni is actually a corrupted form of peperoni (one “p”), which denotes a large pepper in Italian, but nowadays it denotes a spicy salami, usually made with a mixture of beef, pork, and spices.
+                The popularity of pepperoni pizza had only started to rise in the 1950s. Nowadays, beef pepperoni pizza is the most popular pizza variety, but there are also versions such as fish pepperoni pizza and port pepperoni pizza. The preparation varies from one state to another, but the popularity of this pizza has made it a staple across the United States, and it’s usually prepared simply with mozzarella, tomato sauce, and pepperoni.</p>
+            </details>
+          </div>
+        </div>
+
+        <div class="order-input">
+          <div class="output">
+            <!-- Output -->
+          </div >
+            <div class="input-btn">
+              <button class="order-submit" type="submit" >ORDER</button>
+              <button  class="order-finish" type="submit" >Finsh Order</button>
+            </div>
+        </div>
+
+        
+      </div>
+       
+    <script src="/code/pizzabot.js" charset="utf-8"></script>
 </html>
