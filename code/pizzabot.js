@@ -28,15 +28,27 @@ odrdrSubmit.addEventListener('click',()=>{
     if(orderName != null  ){
         let orderNumber = prompt(`How many of ${orderName} do you want?`)
         let TotalPrice = (pizzaPrice)*Number(orderNumber);
-        Output.innerHTML += `<h3>${orderNumber} ${orderName} Pizza Price : ${TotalPrice} KR </h3>` 
-       
+        Output.innerHTML += `<h3>${orderNumber} ${orderName} Pizza <br> 
+        <h4>Great, I'll get started on your ${orderName} Pizza right away, it will cost  ${TotalPrice} kr Price </h4>
+         </h3>` 
     }
    
 })
 orderFinish.addEventListener('click',()=>{
-    Greet.style.display = 'flex';
+    let back =document.querySelector('.comeback') ;
+    back.style.display = 'block';
+     back.innerHTML = ` <h2 class = "bye">We hope you come again </h2> <br>
+    <button  id="bye" class="order-finish" type="submit" >OK <br> <br>
+    Close And Back To Order
+    </button>`
     OrderMain.style.display = 'none';
+    document.querySelector('#bye').addEventListener('click',()=>{
+        Greet.style.display = 'flex';
+        back.style.display = 'none';
+   })
+    
 })
+
 
 
 
