@@ -29,15 +29,14 @@ odrdrSubmit.addEventListener('click',()=>{
         let orderNumber = prompt(`How many of ${orderName} do you want?`)
         let TotalPrice = (pizzaPrice)*Number(orderNumber);
         Output.innerHTML += `<h3>${orderNumber} ${orderName} Pizza Price : ${TotalPrice} KR </h3>` 
-
-        orderFinish.addEventListener('click',()=>{
-            let orderTotal ;
-            orderTotal += TotalPrice;
-            console.log(orderTotal);
-            Output.innerHTML += orderTotal;
-        })
+       
     }
-    
+   
 })
+orderFinish.addEventListener('click',()=>{
+    Greet.style.display = 'flex';
+    OrderMain.style.display = 'none';
+})
+
 
 
