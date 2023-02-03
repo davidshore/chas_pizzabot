@@ -21,7 +21,7 @@ function start() {
   }
 }
 function checkOrderName(name) {
-  if (name === "Vegetarian Pizza" || name === "Hawaiian Pizza" || name === "Pepperoni Pizza") return true;
+  if (name.toLowerCase().includes('vegetarian') || name.toLowerCase().includes('hawaiian')|| name.toLowerCase().includes('pepperoni')) return true;
   return false;
 }
 function totalCost(orderQuantity) {
